@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftBread — Healthy Sourdough Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C12 2 15 6 15 10C15 12 14 14 12 16C10 14 9 12 9 10C9 6 12 2 12 2Z" fill="#C88A53"/>
+                    <path d="M7 8C7 8 9 11 9 14C9 15.5 8 17 7 18C6 17 5 15.5 5 14C5 11 7 8 7 8Z" fill="#C88A53"/>
+                    <path d="M17 8C17 8 19 11 19 14C19 15.5 18 17 17 18C16 17 15 15.5 15 14C15 11 17 8 17 8Z" fill="#C88A53"/>
+                    <path d="M12 16V22" stroke="#C88A53" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span>CraftBread</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#catalog">Our Bread</a>
+                <a href="#process">Recipes & Craft</a>
+                <a href="#locations">Points of Sale</a>
+                <a href="#delivery">Morning Delivery</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+
+            <a href="#delivery" class="btn-primary subscribe-btn">Subscribe</a>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Главный баннер (Hero Section) с фотографией -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <span class="badge">🌾 100% BIO & YEAST-FREE SOURDOUGH</span>
+                <h1 class="hero-title">Bread on Sourdough without Yeast and Chemistry</h1>
+                <p class="hero-text">Crafted in Almaty using ancient fermentation techniques. Our organic bread matures for 36 hours, unlocking vital nutrients, natural vitamins, and gut-friendly probiotics for your family.</p>
+
+                <div class="hero-buttons">
+                    <a href="#catalog" class="btn-primary">View Product Catalog ↓</a>
+                    <a href="#delivery" class="btn-secondary">Setup Daily Delivery</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <div class="stat-num">36 Hrs</div>
+                        <div class="stat-desc">Slow Fermentation</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">0%</div>
+                        <div class="stat-desc">Commercial Yeast</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">100%</div>
+                        <div class="stat-desc">Whole Grain Flour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-wrap">
+                <img src="images/hero-bread.webp" alt="Artisan Bread" class="hero-image">
+                <div class="hero-badge-float">
+                    📍 Baked fresh every morning at 05:00 AM
+                </div>
+            </div>
+        </section>
+
+        <!-- Каталог хлеба с БЖУ и ценами -->
+        <section id="catalog" class="section-block">
+            <h2 class="section-title">Our Artisan Bread Catalog</h2>
+
+            <div class="catalog-grid">
+                <!-- Карточка 1 -->
+                <div class="card">
+                    <img src="images/bread-1.webp" alt="Wild Wheat Sourdough" class="card-img">
+                    <div class="card-header-flex">
+                        <h3>Wild Wheat Sourdough</h3>
+                        <span class="price">1,200 〒</span>
+                    </div>
+                    <p class="card-desc">Rustic artisan loaf with crunchy golden crust and tender airy crumb. Fermented for 36 hours.</p>
+
+                    <div class="nutrition-box">
+                        <div class="nutri-item"><strong>210 kcal</strong><span>Calories</span></div>
+                        <div class="nutri-item"><strong>7.5g</strong><span>Protein</span></div>
+                        <div class="nutri-item"><strong>1.2g</strong><span>Fat</span></div>
+                        <div class="nutri-item"><strong>42g</strong><span>Carbs</span></div>
+                    </div>
+
+                    <p class="composition"><strong>Composition:</strong> Bio wheat flour, wild sourdough starter, artesian water, Himalayan salt.</p>
+
+                    <a href="#delivery" class="btn-primary card-btn">+ Add to Morning Plan</a>
+                </div>
+
+                <!-- Карточка 2 -->
+                <div class="card">
+                    <img src="images/bread-2.webp" alt="Green Buckwheat Loaf" class="card-img">
+                    <div class="card-header-flex">
+                        <h3>Green Buckwheat Loaf</h3>
+                        <span class="price">1,650 〒</span>
+                    </div>
+                    <p class="card-desc">Naturally gluten-free sourdough loaf made from unroasted sprouted green buckwheat groats.</p>
+
+                    <div class="nutrition-box">
+                        <div class="nutri-item"><strong>185 kcal</strong><span>Calories</span></div>
+                        <div class="nutri-item"><strong>6.8g</strong><span>Protein</span></div>
+                        <div class="nutri-item"><strong>2.1g</strong><span>Fat</span></div>
+                        <div class="nutri-item"><strong>36g</strong><span>Carbs</span></div>
+                    </div>
+
+                    <p class="composition"><strong>Composition:</strong> Sprouted green buckwheat, psyllium husk, chia seeds, artesian water, sea salt.</p>
+
+                    <a href="#delivery" class="btn-primary card-btn">+ Add to Morning Plan</a>
+                </div>
+
+                <!-- Карточка 3 -->
+                <div class="card">
+                    <img src="images/bread-3.webp" alt="Borodinsky Dark Rye" class="card-img">
+                    <div class="card-header-flex">
+                        <h3>Borodinsky Dark Rye</h3>
+                        <span class="price">1,350 〒</span>
+                    </div>
+                    <p class="card-desc">Traditional malted dark rye bread infused with aromatic coriander and crushed cumin seeds.</p>
+
+                    <div class="nutrition-box">
+                        <div class="nutri-item"><strong>198 kcal</strong><span>Calories</span></div>
+                        <div class="nutri-item"><strong>5.9g</strong><span>Protein</span></div>
+                        <div class="nutri-item"><strong>1.0g</strong><span>Fat</span></div>
+                        <div class="nutri-item"><strong>40g</strong><span>Carbs</span></div>
+                    </div>
+
+                    <p class="composition"><strong>Composition:</strong> Rye flour, fermented rye malt, coriander seeds, natural molasses, rye starter.</p>
+
+                    <a href="#delivery" class="btn-primary card-btn">+ Add to Morning Plan</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок процесса и точек продаж -->
+        <section class="info-grid-section">
+            <div id="process" class="card">
+                <span class="info-tag">SOURDOUGH SCIENCE</span>
+                <h2 class="block-title">Our 36-Hour Sourdough Process</h2>
+
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div><strong>Wild Starter Levain:</strong> Flour and artesian water fermented for 12 hours.</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div><strong>Autolyse & Stretch:</strong> Organic dough rests to break down phytates naturally.</div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div><strong>Hearth Stone Baking:</strong> Baked on intense basalt stone hearths.</div>
+                </div>
+            </div>
+
+            <div id="locations" class="card">
+                <span class="info-tag">STORE LOCATIONS</span>
+                <h2 class="block-title">Our Points of Sale in Almaty</h2>
+
+                <div class="location-item">
+                    <strong>📍 Flagship Eco Bakery</strong>
+                    <p>Abay Ave 150/2, Almaty • Open 07:00 - 21:00</p>
+                </div>
+
+                <div class="location-item">
+                    <strong>📍 Dostyk Craft Hub</strong>
+                    <p>Dostyk Ave 89, Almaty • Open 08:00 - 20:00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма заказа (Morning Delivery) -->
+        <section id="delivery" class="section-block">
+            <div class="delivery-card">
+                <div class="delivery-badge">FRESH EVERY MORNING</div>
+                <h2 class="delivery-title">Subscribe to Morning Bakery Delivery</h2>
+                <p class="delivery-subtitle">Get freshly baked sourdough bread delivered straight to your door before 07:30 AM every morning. Cancel or alter frequency anytime.</p>
+
+                <form class="delivery-form" onsubmit="event.preventDefault();">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>FULL NAME *</label>
+                            <input type="text" placeholder="e.g. Merey Yerlan" required>
+                        </div>
+                        <div class="form-group">
+                            <label>PHONE NUMBER (SMS ALERT) *</label>
+                            <input type="text" placeholder="+7 (707) 000-0000" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>DELIVERY ADDRESS IN ALMATY *</label>
+                        <input type="text" placeholder="Street name, house/building number, apartment" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>PREFERRED LOAF SELECTION</label>
+                            <select>
+                                <option>Wild Wheat Sourdough (1,200 〒)</option>
+                                <option>Green Buckwheat Loaf (1,650 〒)</option>
+                                <option>Borodinsky Dark Rye (1,350 〒)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>DELIVERY FREQUENCY *</label>
+                            <select required>
+                                <option value="" disabled selected>Choose schedule...</option>
+                                <option>Daily Delivery</option>
+                                <option>Every 2 Days</option>
+                                <option>Weekends Only</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-footer">
+                        <span class="secure-note">🛡️ Payment collected after 1st test delivery.</span>
+                        <button type="submit" class="btn-primary">Confirm Morning Subscription</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Футер -->
+    <footer id="contacts" class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C12 2 15 6 15 10C15 12 14 14 12 16C10 14 9 12 9 10C9 6 12 2 12 2Z" fill="#C88A53"/>
+                        <path d="M12 16V22" stroke="#C88A53" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>CraftBread</span>
+                </div>
+                <p class="footer-desc">Local artisan craft production committed to pure ingredient composition and organic sourdough baking.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#catalog">Bakery Assortment</a></li>
+                    <li><a href="#process">Fermentation Process</a></li>
+                    <li><a href="#delivery">Morning Subscription</a></li>
+                    <li><a href="#locations">Pick-up Points</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>QUALITY COMPLIANCE</h4>
+                <ul class="compliance-list">
+                    <li>🌾 Bio Grain Certificate #KZ-2026</li>
+                    <li>📄 Non-GMO Raw Material Verification</li>
+                    <li>✔ ISO 22000 Food Safety Passed</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>SYSTEM THEME INVERSION</h4>
+                <p class="theme-desc">Toggle craft beige light theme or dark contrast mode.</p>
+                <button class="theme-toggle-btn" onclick="document.body.classList.toggle('dark-theme')">
+                    🌗 Switch to Dark Theme
+                </button>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 Private Bakery of Healthy Bread. All rights reserved.</p>
+            <p>Developed for ICT6001 Laboratory Work 9 • IITU</p>
+        </div>
+    </footer>
+
+</body>
+</html>
